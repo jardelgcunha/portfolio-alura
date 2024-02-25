@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Krona One';
+    src: url(../assets/fonts/KronaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat Semibold';
+    src: url(../assets/fonts/KronaOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+main {
+    width: 70%;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    .card .titulo h1 {
+        font-family: 'Krona One';
+        font-size: 32px;
+        line-height: 52px;
+        color: #f6f6f6;
+    }
+    .card .titulo h1 strong {
+        color: #22d4fd;
+    }
+
+    .card .paragrafo p {
+        font-family: 'Montserrat Regular';
+        font-size: 20px;
+        line-height: 28px;
+        color: #f6f6f6;
+    }
+
+    .card .links {
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card .links .link {
+        width: 100%;
+        padding: 1rem;
+        background: #22d4fd;
+        font-family: 'Montserrat Semibold';
+        text-align: center;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .card .links .link:hover {
+        opacity: 0.8;
+    }
+    .card .links .link a {
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #000;
+    }
+}
