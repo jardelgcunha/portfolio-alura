@@ -17,16 +17,16 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background: #000;
     color: #f6f6f6;
 }
 
 .apresentacao {
-    margin: 8%;
+    padding: 8% 10%;
     display: flex;
-    justify-content: space-around;
+    /* align-items: center; */
+    justify-content: space-between;
 }
 
 .apresentacao__conteudo {
@@ -72,7 +72,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    border: 2px solid #22d4f0;
+    border: 2px solid #22d4fd;
     border-radius: 8px;
     font-family: 'Montserrat Semibold', sans-serif;
     font-size: 1rem;
@@ -86,6 +86,17 @@ body {
     background-color: #272727;
 }
 
-.imagem {
+.secao {
+}
+.secao__imagem {
     width: 80%;
+}
+
+.rodape {
+    padding: 1rem;
+    background: #22d4fd;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
 }
