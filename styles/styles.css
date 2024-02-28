@@ -30,7 +30,6 @@ body {
     display: flex;
     gap: 80px;
 }
-
 .cabecalho__menu__link {
     font-family: 'Montserrat Regular', sans-serif;
     font-size: 24px;
@@ -38,13 +37,12 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
 .cabecalho__menu__link:hover {
-    color: #007bff;
+    opacity: 0.8;
 }
 
 .apresentacao {
-    padding: 5% 10%;
+    padding: 4% 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +70,16 @@ body {
     line-height: 30px;
 }
 
+.apresentacao__conteudo__texto li {
+    margin-left: 2rem;
+}
+.apresentacao__conteudo__texto li a {
+    cursor: pointer;
+}
+.apresentacao__conteudo__texto li a:hover {
+    opacity: 0.8;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -85,9 +93,14 @@ body {
     font-size: 20px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__groups {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__groups__link {
     padding: 1rem 0;
-    width: 378px;
+    width: 290px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,12 +115,12 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
-.apresentacao__links__link:hover {
+.apresentacao__links__groups__link:hover {
     background-color: #272727;
 }
 
 .card__imagem {
-    width: 80%;
+    width: 100%;
 }
 
 .rodape {
