@@ -23,7 +23,7 @@ body {
     color: #f6f6f6;
 }
 
-main {
+.apresentacao {
     width: 74%;
     margin: 5rem auto;
     display: flex;
@@ -39,7 +39,7 @@ main {
         font-size: 33px;
         line-height: 48px;
     }
-    .card .titulo h1 strong {
+    .card .titulo h1 .titulo-destaque {
         color: #22d4fd;
     }
 
