@@ -61,16 +61,22 @@ body {
     gap: 1.5rem;
 }
 
+.links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+}
+
 .link {
-    background: #22d4fd;
+    /* background: #22d4fd; */
     padding: 1rem 0;
-    width: 280px;
+    width: 378px;
     font-family: 'Montserrat Semibold', sans-serif;
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #000;
-    border-radius: 1rem;
+    color: #f6f6f6;
+    border: 2px solid #22d4f0;
+    border-radius: 8px;
     cursor: pointer;
     transition: 0.5s;
 }
