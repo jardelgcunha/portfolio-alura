@@ -109,9 +109,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.apresentacao__links__groups__link {
+.apresentacao__links__groups__navegacao {
     padding: 1rem 0;
-    width: 290px;
+    width: 48%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
-.apresentacao__links__groups__link:hover {
+.apresentacao__links__groups__navegacao:hover {
     background: var(--cor-hover);
 }
 
