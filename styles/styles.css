@@ -154,8 +154,15 @@ body {
         justify-content: center;
     }
     .apresentacao {
-        padding: 4% 5%;
+        padding: 0%;
         flex-direction: column-reverse;
+        align-items: center;
+    }
+    .apresentacao__imagem {
+        width: 60%;
+    }
+    .apresentacao__imagem img {
+        width: 100%;
     }
 }
 
