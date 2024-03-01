@@ -158,6 +158,10 @@ body {
         flex-direction: column-reverse;
         align-items: center;
     }
+    .apresentacao__conteudo {
+        width: 60%;
+        margin: 5rem;
+    }
     .apresentacao__imagem {
         width: 60%;
     }
